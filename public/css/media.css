@@ -8,9 +8,15 @@
   }
   .playBtn {
     background-image: -webkit-linear-gradient(#eee1ef, #d80fea);
+    box-shadow:
+    inset 5px 5px 6px #acacaca5,
+    inset -5px -5px 6px rgb(83, 47, 96);
   }
   .playBtn:hover {
     background-image: -webkit-linear-gradient(#f0ecf0, #ecbef0);
+    box-shadow:
+    inset 5px 5px 6px #acacaca5,
+    inset -5px -5px 6px rgb(83, 47, 96);
 }
   #sliderDiv, #mediaDiv, #mediaDiv2, #mediaDiv3 {
     margin-top: 6.5%;
