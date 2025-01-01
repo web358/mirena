@@ -8,6 +8,21 @@ body {
     -o-background-size: cover;
     min-height: 1000px;
 }
+.imgText {
+  position: absolute;
+  margin-top: 190%;
+  margin-left: 15%;
+  width: 100px;
+  height: 100px;
+}
+#forUs {
+display: none;
+}
+#forUs2 {
+  display: block;
+  position: absolute;
+  margin-left: 2%;
+}
 
 .mainImg {
   width: 100%;
@@ -33,13 +48,13 @@ body {
   position: absolute;
   margin-left: 10%;
   color: white;
-  /* color: #ecbef0;
-  text-shadow: #d80fea; */
+  text-shadow: 2px 1px 2px #1c021f;
 }
 
 footer span {
   color: white;
   text-decoration: underline;
+  text-shadow: 2px 1px 2px #1c021f;
 }
 
 
