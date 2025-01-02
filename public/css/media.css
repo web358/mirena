@@ -6,6 +6,9 @@
     width: 50%;
     height: 300px
   }
+   .mainImg:nth-child(4), .mainImg:nth-child(5){
+    display: none;
+  }
   .playBtn {
     background-image: -webkit-linear-gradient(#eee1ef, #d80fea);
     box-shadow:
