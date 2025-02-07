@@ -230,3 +230,15 @@ footer span {
     padding: 12px;
     font-size: 12px;
   }
+
+.share {
+    position: absolute;
+    margin-top: 4%;
+    border: none;
+    border-radius: 5px;
+    background-color: #5d47a3;
+  }
+  
+  .share a{
+   color: white;
+  }
