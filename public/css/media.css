@@ -6,7 +6,7 @@
     width: 50%;
     height: 300px
   }
-   .mainImg:nth-child(4), .mainImg:nth-child(5){
+  .mainImg:nth-child(4), .mainImg:nth-child(5){
     display: none;
   }
   .playBtn {
@@ -46,34 +46,36 @@
   margin-top: 35%; 
 }
 
- .services, .services1{
+    .services, .services1{
       top: 0;
+      margin-top: -6%;
       position: absolute;
       display: block;
+      height: 120px;
+      width: 200px;
       justify-content: center;
-      height: 80px;
-      width: 150px;
       border-radius: 5px;
   }
+
   .services1 {
-    margin-left: 685%;
+    margin-left: 525%;
     box-shadow: 0 12px 24px rgba(31, 30, 30, 0.94);
   }
   .services1:nth-child(1) {
     margin-top: 90%;
-    animation: fade-in 2s ease-in forwards;
+    animation: fade-in 1s ease-in forwards;
   }
   .services1:nth-child(2) {
     margin-top: 160%;
-    animation: fade-in 3s ease-in forwards;
+    animation: fade-in 2s ease-in forwards;
   }
   .services1:nth-child(3) {
     margin-top: 230%;
-    animation: fade-in 4s ease-in forwards;
+    animation: fade-in 3s ease-in forwards;
   }
   .services1:nth-child(4) {
     margin-top: 300%;
-    animation: fade-in 5s ease-in forwards;
+    animation: fade-in 4s ease-in forwards;
   }
   .street {
     position: absolute;
